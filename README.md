@@ -97,3 +97,4 @@ fig = go.Figure(data=[edge_trace, node_trace],
                 )
 fig.show()
 ```
+![alt text](https://raw.githubusercontent.com/DunhamVictoria11/networkgraphs/master/Снимок%20экрана%202020-05-14%20в%2022.01.34.png)
