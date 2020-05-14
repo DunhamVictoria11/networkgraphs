@@ -1,4 +1,4 @@
-**networkgraphs**
+
 ## Create random graph
 
 Install the Python library networkx with pip install networkx.
@@ -12,6 +12,7 @@ G = nx.random_geometric_graph(200, 0.125)
 ```
 
 **Create Edges**
+
 Add edges as disconnected lines in a single trace and nodes as a scatter trace
 
 ```
@@ -64,6 +65,7 @@ node_trace = go.Scatter(
 ```
 
 **Color Node Points**
+
 Color node points by the number of connections.
 Another option would be to size points by the number of connections i.e. node_trace.marker.size = node_adjacencies
 ```
@@ -95,4 +97,3 @@ fig = go.Figure(data=[edge_trace, node_trace],
                 )
 fig.show()
 ```
-![alt text] (https://ibb.co/bXqsJmc)
