@@ -97,4 +97,4 @@ fig = go.Figure(data=[edge_trace, node_trace],
                 )
 fig.show()
 ```
-![alt text](https://wampi.ru/image/6oXc9Br)
+![alt text](https://ibb.co/r5BvzqC)
